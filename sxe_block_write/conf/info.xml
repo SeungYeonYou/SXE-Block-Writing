@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+  <title xml:lang="ko">글 작성 차단 애드온</title>
+  <description xml:lang="ko">
+    활성화하면 새 글 작성을 막습니다. 활성화 할 모듈을 선택하시면 일부 모듈만 막을 수 있습니다. 관리자는 해당되지 않습니다.
+  </description>
+  <version>0.2</version>
+  <date>2014-07-20</date>
+  <author email_address="SeungYeonYou.KR+XE@gmail.com" link="http://seungyeon.me/?xe">
+    <name xml:lang="ko">SeungXE</name>
+  </author>
+<extra_vars>
+<var name="sxe_block_write_msg" type="text">
+<title xml:lang="ko">띄울 메세지</title>
+<description xml:lang="ko">차단되며 alert 창에 띄울 내용을 입력합니다.</description>
+</var>
+</extra_vars>
+</addon>
